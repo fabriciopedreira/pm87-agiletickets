@@ -129,7 +129,7 @@ public class EspetaculoTest {
 		//Assert
 		Assert.assertNotNull(sessoes);
 		Assert.assertEquals(6, sessoes.size());
-		Assert.assertEquals("01/01/10", sessoes.get(0).getDia());
+		Assert.assertEquals("01/01/99", sessoes.get(0).getDia());
 		Assert.assertEquals("08/01/10", sessoes.get(1).getDia());
 		Assert.assertEquals("15/01/10", sessoes.get(2).getDia());
 	}
